@@ -10,7 +10,12 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  headerText:string="Task Manager";
   ngOnInit(): void {
+  }
+  toggleTask(){
+    console.log("toggle");
+    
   }
 
 }
